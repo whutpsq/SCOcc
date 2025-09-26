@@ -39,7 +39,7 @@ grid_config = {
 voxel_size = [0.1, 0.1, 0.2]
 
 numC_Trans = 80
-multi_adj_frame_id_cfg = (1, 1+1, 1)
+multi_adj_frame_id_cfg = (1, 6+1, 1)
 
 
 model = dict(
@@ -226,7 +226,7 @@ lr_config = dict(
     warmup_ratio=0.001,
     step=[24, ])
 runner = dict(type='EpochBasedRunner', max_epochs=24)
-# runner = dict(type='EpochBasedRunner', max_epochs=150)
+
 
 custom_hooks = [
     dict(
