@@ -71,8 +71,8 @@ step 4. Download (only) the 'gts' from [CVPR2023-3D-Occupancy-Prediction](https:
 
 
 step 5. CKPTS Preparation
-Download scocc-r50-256x704.pth[https://drive.google.com/file/d/1k9BzXB2nRyvXhqf7GQx3XNSej6Oq6I-B/view] to Path_to_SCOcc/SCOcc/ckpts/, then run:
+Download scocc-r50-time6.pth[https://drive.google.com/file/d/1bISLcGrgBY_lIdtlGvaiPcBuCwZAEOCZ/view?usp=drive_link]  to Path_to_SCOcc/SCOcc/ckpts/, then run:
 ```shell script
-bash tools/dist_test.sh projects/configs/scocc/scocc-r50.py  ckpts/scocc-r50-256x704.pth 4 --eval map
+bash tools/dist_test.sh projects/configs/scocc/scocc-r50-6f.py  ckpts/scocc-r50-time6.pth 4 --eval map
 ```
 

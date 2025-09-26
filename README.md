@@ -19,10 +19,10 @@ This repository is an official implementation of SCOcc.
 
 
 ## Main Results
-| Config                                                                                         | Backbone | Input <br/>Size | mIoU  | Model                                                                                                      |
-|:-----------------------------------------------------------------------------------------------|:--------:|:---------------:|:-----:|:-----------------------------------------------------------------------------------------------------------|
-| [**SCOcc-4D-Stereo (6f)**](projects/configs/scocc/scocc-r50-4d-stereo.py)                      |   R50    |     256x704     | 40.51 | [**scocc-r50-6f**](https://drive.google.com/file/d/1bISLcGrgBY_lIdtlGvaiPcBuCwZAEOCZ/view?usp=drive_link)  | 
-| [**SCOcc-4D-Stereo (4f)**](projects/configs/scocc/scocc-stbase-4d-stereo-512x1408_4x4_2e-4.py) |  Swin-B  |    512x1408     | 45.01 | [**scocc-swin-4f**](https://drive.google.com/file/d/1JscU3Vg0e_UmsccRKMrs4ttrjgKYAOuc/view?usp=drive_link) | 
+| Config                                                           | Backbone | Input <br/>Size | mIoU  | Model                                                                                                      |
+|:-----------------------------------------------------------------|:--------:|:---------------:|:-----:|:-----------------------------------------------------------------------------------------------------------|
+| [**SCOcc-R50 (6f)**](projects/configs/scocc/scocc-r50-6f.py)     |   R50    |     256x704     | 40.51 | [**scocc-r50-6f**](https://drive.google.com/file/d/1bISLcGrgBY_lIdtlGvaiPcBuCwZAEOCZ/view?usp=drive_link)  | 
+| [**SCOcc-Swin (4f)**](projects/configs/scocc/scocc-stbase-4f.py) |  Swin-B  |    512x1408     | 45.01 | [**scocc-swin-4f**](https://drive.google.com/file/d/1JscU3Vg0e_UmsccRKMrs4ttrjgKYAOuc/view?usp=drive_link) | 
 
 
 ## Get Started
